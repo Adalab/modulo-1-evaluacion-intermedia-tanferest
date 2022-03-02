@@ -8,7 +8,7 @@
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   --nav-text: #4a4a4a;
-  --adalab-color: #3CDBC0;
+  --adalab-color: #3cdbc0;
   --main-text: #fff;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .nav {
-    margin-bottom: 13px;
+  margin-bottom: 13px;
 }
 
 .nav-item {
@@ -42,15 +42,34 @@
 }
 
 .main {
-    background-color: var(--adalab-color);
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: var(--adalab-color);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-text {
-    font-size: 1.875rem;
-    color: var(--main-text);
+  font-size: 1.875rem;
+  color: var(--main-text);
+}
+
+/* TABLET - DESKTOP */
+
+@media all and (min-width: 768px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+    }
+
+    .logo {
+        margin: 20px 0;
+    }
+
+    .main-text {
+        font-size: 2.5rem;
+    }
 }
