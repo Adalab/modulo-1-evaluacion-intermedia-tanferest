@@ -35,10 +35,7 @@
   text-decoration: none;
   text-transform: uppercase;
   color: var(--nav-text);
-}
-
-.nav-blog {
-  margin-right: 20px;
+  padding: 10px;
 }
 
 .main {
@@ -64,8 +61,7 @@
     .header {
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
-        padding: 0 30px;
+        padding: 0 20px;
     }
 
     .logo {
