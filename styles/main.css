@@ -53,6 +53,9 @@
 .main-text {
   font-size: 1.875rem;
   color: var(--main-text);
+  text-transform: capitalize;
+  width: 10ch;
+  text-align: center;
 }
 
 /* TABLET - DESKTOP */
